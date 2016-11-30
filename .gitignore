@@ -1,0 +1,7 @@
+.DS_Store
+lib/.sublime-grunt.cache
+lib/node_modules
+lib/bower_components
+lib/.sass-cache
+dist/
+src/fbGet.js
