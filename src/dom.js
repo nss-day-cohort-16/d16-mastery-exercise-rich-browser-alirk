@@ -5,7 +5,6 @@ let db = require('./db');
 let Handlebars = require('hbsfy/runtime');
 let listTemplate = require('./templates/list.hbs');
 let viewTemplate = require('./templates/view.hbs');
-let addTemplate = require('./templates/add.hbs');
 
 
 function showToyDetails(fbKey){
@@ -34,13 +33,8 @@ function makeToyGrid(toys){
 	});
 }
 
-function showAddToyForm(){
-	console.log('showAddToyForm is running');
-	let addHtml = addTemplate();
-	$("#output").html(addHtml);
-}
 
 
 
 
-module.exports = { makeToyGrid, showAddToyForm };
+module.exports = { makeToyGrid };

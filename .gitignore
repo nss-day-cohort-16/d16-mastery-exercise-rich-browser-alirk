@@ -5,3 +5,4 @@ lib/bower_components
 lib/.sass-cache
 dist/
 src/fbGet.js
+toys.json
