@@ -1,3 +1,10 @@
+img {
+  max-height: 150px; }
 
+li {
+  list-style: none; }
+
+input {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
